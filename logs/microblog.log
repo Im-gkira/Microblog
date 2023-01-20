@@ -33,3 +33,4 @@ Traceback (most recent call last):
   File "D:\Project Based Learning\Flask\Microblog\app\models.py", line 62, in get_reset_password_token
     }, app.config["SECRET_KEY"], algorithm='HS256')
 TypeError: 'module' object is not subscriptable
+2023-01-20 15:42:39,425 INFO: Microblog startup [in D:\Project Based Learning\Flask\Microblog\app\__init__.py:49]
