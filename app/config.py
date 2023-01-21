@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -15,4 +16,6 @@ class Config(object):
     MAIL_USERNAME = os.getenv('MAIL_USERNAME') or 'apikey'
     MAIL_PASSWORD = os.getenv('SENDGRID_API_KEY')
     ADMINS = [os.getenv('MAIL_DEFAULT_SENDER')]
-    POSTS_PER_PAGE = 15
+    POSTS_PER_PAGE = 10
+    LANGUAGES = ['en', 'fr']
+
