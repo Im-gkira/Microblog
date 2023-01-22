@@ -1,9 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
-
 basedir = os.path.abspath(os.path.dirname(__file__))
+load_dotenv(os.path.join(basedir, '.env'))
 
 
 class Config(object):
@@ -18,4 +17,4 @@ class Config(object):
     ADMINS = [os.getenv('MAIL_DEFAULT_SENDER')]
     POSTS_PER_PAGE = 10
     LANGUAGES = ['en', 'fr']
-
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')

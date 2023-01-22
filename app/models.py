@@ -72,6 +72,7 @@ class User(UserMixin, db.Model):
 
 
 class Post(db.Model):
+    __searchable__ = ['body']
     id = db.Column(db.Integer, primary_key=True)
     language = db.Column(db.String(10),default="en-US")
     body = db.Column(db.String(200))
