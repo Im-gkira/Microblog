@@ -2,9 +2,7 @@
 
 Microblog is a simple microblogging web application with minimalistic user interface. The sole purpose of this project
 is to learn and get familiar with flask.
-
-![test](https://i.postimg.cc/v85FtMXF/email.png)
-
+<kbd>
 <table>
 <tr>
 <td>
@@ -16,13 +14,14 @@ is to learn and get familiar with flask.
 </tr>
 <tr>
 <td>
-<img src="https://i.postimg.cc/GmhWRDRd/explore.png">
+<img src="https://i.postimg.cc/R0TJH28c/explore.png">
 </td>
 <td>
 <img src="https://i.postimg.cc/2ShZz179/email.png">
 </td>
 </tr>
 </table>
+</kbd>
 
 ## Getting Started
 
