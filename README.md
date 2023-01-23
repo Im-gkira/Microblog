@@ -61,5 +61,5 @@ To run the unit tests designed to check the database queries. Run-
 
 ## Acknowledgments
 
-- Followed ***[The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)***by ***Miguel Grinberg***
+- Followed ***[The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)*** by ***Miguel Grinberg***
 
