@@ -15,29 +15,29 @@ Requirements for the software and other tools to build, test and push
 
 ### Installing
 
- -  First of all clone this repo locally using git.<br>
+   <pre>  First of all clone this repo locally using git.</pre>
 
     git clone https://github.com/Im-gkira/Microblog.git
 
 
- -  Ensure Docker is installed and running in your local system.-
+   Ensure Docker is installed and running in your local system.-
 
     docker version
 
 
- -  Go to the root folder of the application and build docker container image using-
+   Go to the root folder of the application and build docker container image using-
 
     docker build -t microblog:latest .
 
  
- -  Now we can start a docker container using docker run-
+   Now we can start a docker container using docker run-
 
     docker run --name microblog -d -p 8000:5000 --rm microblog:latest
 
  
 ## Running the tests
 
-  -  To run the unit tests designed to check the database queries. Run-
+   To run the unit tests designed to check the database queries. Run-
 
     python tests.py
     
