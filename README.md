@@ -8,18 +8,18 @@ is to learn and get familiar with flask.
 <table>
 <tr>
 <td>
-<img src="https://github.com/Im-gkira/Microblog/blob/6fbb6924d1a80f23e69f710d9da5313c609ff33b/app/static/email.png">
+<img src="https://i.postimg.cc/vmy6DGPY/login.png">
 </td>
 <td>
-<img src="./app/static/profile.png?raw=true">
+<img src="https://i.postimg.cc/hjPzbpWN/profile.png">
 </td>
 </tr>
 <tr>
 <td>
-<img src="app/static/explore.png?raw=true">
+<img src="https://i.postimg.cc/GmhWRDRd/explore.png">
 </td>
 <td>
-<img src="app/static/email.png?raw=true">
+<img src="https://i.postimg.cc/2ShZz179/email.png">
 </td>
 </tr>
 </table>
