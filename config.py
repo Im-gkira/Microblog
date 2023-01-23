@@ -17,4 +17,4 @@ class Config(object):
     ADMINS = [os.getenv('MAIL_DEFAULT_SENDER')]
     POSTS_PER_PAGE = 10
     LANGUAGES = ['en', 'fr']
-    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
+    ELASTICSEARCH_URL = os.getenv('ELASTICSEARCH_URL')
