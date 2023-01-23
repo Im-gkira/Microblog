@@ -7,7 +7,7 @@ is to learn and get familiar with flask.
 <table>
 <tr>
 <td>
-<img src="https://github.com/Im-gkira/Microblog/blob/6fbb6924d1a80f23e69f710d9da5313c609ff33b/app/static/login.png">
+<img src="https://github.com/Im-gkira/Microblog/blob/main/app/static/login.png">
 </td>
 <td>
 <img src="app/static/profile.png">
