@@ -37,17 +37,12 @@ Requirements for the software and other tools to build, test and push
  
 ## Running the tests
 
-To run the unit tests designed to check the database queries. Run
+    To run the unit tests designed to check the database queries. Run
 
     python tests.py
     
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+  - Followed ***[The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)*** by ***Miguel Grinberg***
 
-
-
-***[Link](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)*** 
