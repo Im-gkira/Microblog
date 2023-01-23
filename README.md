@@ -11,15 +11,15 @@ is to learn and get familiar with flask.
 <img src="https://github.com/Im-gkira/Microblog/blob/6fbb6924d1a80f23e69f710d9da5313c609ff33b/app/static/email.png">
 </td>
 <td>
-<img src="./app/static/profile.png">
+<img src="./app/static/profile.png?raw=true">
 </td>
 </tr>
 <tr>
 <td>
-<img src="app/static/explore.png">
+<img src="app/static/explore.png?raw=true">
 </td>
 <td>
-<img src="app/static/email.png">
+<img src="app/static/email.png?raw=true">
 </td>
 </tr>
 </table>
