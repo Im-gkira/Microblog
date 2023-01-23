@@ -3,7 +3,7 @@
 Microblog is a simple microblogging web application with minimalistic user interface. The sole purpose of this project
 is to learn and get familiar with flask.
 
-![test](https://github.com/Im-gkira/Microblog/blob/6fbb6924d1a80f23e69f710d9da5313c609ff33b/app/static/email.png)
+![test](https://i.postimg.cc/v85FtMXF/email.png)
 
 <table>
 <tr>
