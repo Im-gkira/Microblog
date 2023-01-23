@@ -15,10 +15,7 @@ Requirements for the software and other tools to build, test and push
 
 ### Installing
 
-  First of all clone this repo locally using git.
-  '''
-  git clone https://github.com/Im-gkira/Microblog.git
-  '''
+ - First of all clone this repo locally using git.\n```git clone https://github.com/Im-gkira/Microblog.git```
 
 ## Running the tests
 
