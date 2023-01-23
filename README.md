@@ -20,6 +20,9 @@ Requirements for the software and other tools to build, test and push
     ```git clone https://github.com/Im-gkira/Microblog.git```
 
      
+Explain what these tests test and why
+
+    Give an example
 
 ## Running the tests
 
