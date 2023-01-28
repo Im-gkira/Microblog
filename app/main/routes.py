@@ -1,5 +1,5 @@
 from datetime import datetime
-from flask import render_template, flash, redirect, url_for, request,current_app
+from flask import render_template, flash, redirect, url_for, request, current_app
 from flask_login import current_user, login_required
 from langdetect import detect, LangDetectException
 from app.main import bp
@@ -122,3 +122,11 @@ def explore():
     prev_url = url_for('main.explore', page=posts.prev_num) if posts.has_prev else None
     return render_template("index.html", title='Explore', posts=posts.items,
                            next_url=next_url, prev_url=prev_url)
+
+
+@bp.route('user/<username>/popup')
+@login_required
+def user_popup(username):
+    user = User.query.filter_by(username=username).first_or_404()
+    form = EmptyForm()
+    return render_template('user_popup.html', user=user, form=form)
